@@ -33,8 +33,7 @@
 @media only screen and (max-width: 1270px) {
     .navContent {
         padding: 10px;
-        margin-left: auto;
-        margin-right: 20px;
+        margin:0 20px;
     }
 
     .navContent__text {

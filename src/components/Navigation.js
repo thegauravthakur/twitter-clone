@@ -7,6 +7,7 @@ import { CgMoreO, CgNotes } from "react-icons/cg";
 import { NavContent } from "./NavContent";
 import "../styles/navigation.css";
 import { ProfileTile } from "./ProfileTile";
+import TweetIcon from "../assets/icons/TweetIcon";
 
 export function Navigation() {
   return (
@@ -21,9 +22,16 @@ export function Navigation() {
         <NavContent Icon={CgNotes} text="Lists" />
         <NavContent Icon={IoPersonOutline} text="Profile" />
         <NavContent Icon={CgMoreO} text="More" />
-        {/*<button className="navigation__button">Tweet</button>*/}
+        <button className="navigation__button">Tweet</button>
+        <button className="navigation__miniButton">
+          <TweetIcon />
+        </button>
       </div>
-      {/*<ProfileTile />*/}
+      <ProfileTile />
+      <img
+        className="wrapper__photo"
+        src="https://pbs.twimg.com/profile_images/1361135449566105600/eJN6okzW_bigger.jpg"
+      />
     </div>
   );
 }

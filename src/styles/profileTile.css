@@ -34,3 +34,9 @@
 .profileTile__info__username {
     color: #8191A0;
 }
+
+@media only screen and (max-width: 1270px) {
+    .profileTile {
+        display: none;
+    }
+}
