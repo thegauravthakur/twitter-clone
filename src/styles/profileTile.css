@@ -1,0 +1,36 @@
+.profileTile {
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*left: 0;*/
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    max-width: 230px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.profileTile:hover {
+    background-color: var(--twitter-background);
+}
+
+.profileTile__image {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.profileTile__info {
+    font-size: 14px;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.profileTile__info__name {
+    font-weight: bold;
+}
+
+.profileTile__info__username {
+    color: #8191A0;
+}

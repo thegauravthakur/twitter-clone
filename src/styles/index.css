@@ -1,8 +1,10 @@
 :root {
     --twitter-blue: #1DA1F2;
+    --twitter-background: #d5eaf7;
     --border-color: rgb(235, 238, 240);
 }
 
 * {
+    font-family: Segoe UI, serif;
     margin: 0;
 }

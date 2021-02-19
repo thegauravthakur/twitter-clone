@@ -7,7 +7,7 @@ export function Content() {
     <div className="content">
       <div className="content__header">
         <p>Home</p>
-        {/*<StarIcon />*/}
+        <StarIcon />
       </div>
       <Posts />
     </div>
