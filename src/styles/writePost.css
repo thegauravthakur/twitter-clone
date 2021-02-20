@@ -1,0 +1,85 @@
+.writePost {
+    padding: 10px;
+    display: flex;
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.writePost__image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.writePost__wrapper {
+    padding: 0 10px;
+    flex: 1;
+}
+
+.writePost__wrapper > hr {
+    border: none;
+    height: 0.01rem;
+    color: var(--border-color);
+    background-color: var(--border-color);
+    margin: 10px 0;
+}
+
+.writePost__wrapper > textarea {
+    font-size: 19px;
+    width: 100%;
+    resize: none;
+    border: 0;
+}
+.writePost__wrapper > textarea:focus {
+    outline: none;
+}
+.writePost__wrapper > textarea::placeholder {
+    font-size: 19px;
+}
+
+.writePost__wrapper__privacy {
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 25px;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--twitter-blue);
+    font-weight: bold;
+}
+
+.writePost__wrapper__privacy:hover {
+    background-color: var(--twitter-background);
+}
+
+.writePost__wrapper__privacy>p {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.writePost__wrapper__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.writePost__wrapper__footer__icons > * {
+    color: var(--twitter-blue);
+    margin-right: 10px;
+    font-size: 23px;
+
+}
+
+.writePost__wrapper__footer > button {
+    background-color: var(--twitter-blue);
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 0;
+    padding: 7px 20px;
+}
