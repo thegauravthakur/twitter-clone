@@ -35,10 +35,15 @@
     color: white;
     font-size: 15px;
     cursor: pointer;
+    transition: background-color 200ms ease-out;
 }
 
 .navigation__button:focus {
     outline: none;
+}
+
+.navigation__button:hover {
+    background-color: var(--twitter-blue-dark);
 }
 
 .navigation__miniButton {
