@@ -47,13 +47,62 @@
     align-items: center;
 }
 .postCard__footer > div > p {
-    margin-left: 10px;
     font-size: 14px;
+
 }
 
-
 .postCard__footer > * {
-    padding: 10px;
     color: #5B7083;
 }
 
+.comment {
+    background-color:  transparent;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.comment:hover {
+    color: var(--twitter-blue);
+    background-color: var(--twitter-background);
+}
+.comment:hover + p {
+    color: var(--twitter-blue);
+}
+
+.retweet {
+    background-color:  transparent;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.retweet:hover {
+    color: var(--twitter-green);
+    background-color: var(--twitter-retweet);
+}
+.retweet:hover + p {
+    color: var(--twitter-green);
+}
+.like {
+    background-color:  transparent;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.like:hover {
+    color: var(--twitter-red);
+    background-color: var(--twitter-like);
+}
+.like:hover + p {
+    color: var(--twitter-red);
+}
+
+.share {
+    background-color:  transparent;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.share:hover {
+    color: var(--twitter-blue);
+    background-color: var(--twitter-background);
+}

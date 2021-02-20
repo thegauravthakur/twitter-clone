@@ -1,8 +1,5 @@
 import "../styles/postCard.css";
-import { FaRegComment } from "react-icons/fa";
 import { AiOutlineRetweet, AiOutlineHeart } from "react-icons/ai";
-import { IoMdHeartEmpty } from "react-icons/io";
-import { IoShareOutline } from "react-icons/io5";
 import { VscComment } from "react-icons/vsc";
 import { FiShare } from "react-icons/fi";
 
@@ -28,18 +25,18 @@ export function PostCard({
         <p className="postCard__description">{description}</p>
         <div className="postCard__footer">
           <div>
-            <VscComment />
+            <VscComment className="comment" />
             <p>{commentCount}</p>
           </div>
           <div>
-            <AiOutlineRetweet />
+            <AiOutlineRetweet className="retweet" />
             <p>{retweetCount}</p>
           </div>
           <div>
-            <AiOutlineHeart />
+            <AiOutlineHeart className="like" />
             <p>{likeCount}</p>
           </div>
-          <FiShare />
+          <FiShare className="share" />
         </div>
       </div>
     </div>

@@ -1,6 +1,10 @@
 :root {
     --twitter-blue: #1DA1F2;
-    --twitter-background: #d5eaf7;
+    --twitter-retweet: #e0f1e8;
+    --twitter-green: #17bf63;
+    --twitter-red: #e44375;
+    --twitter-like: #f5e2e8;
+    --twitter-background: #e8f5fe;
     --border-color: rgb(235, 238, 240);
 }
 

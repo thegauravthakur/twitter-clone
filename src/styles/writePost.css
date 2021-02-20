@@ -26,6 +26,7 @@
 }
 
 .writePost__wrapper > textarea {
+    max-height: 100vh;
     font-size: 19px;
     width: 100%;
     resize: none;
@@ -42,7 +43,6 @@
     display: flex;
     align-items: center;
     margin-left: -10px;
-    margin-top: -10px;
     padding: 5px 10px;
     width: max-content;
     border-radius: 25px;
@@ -71,9 +71,15 @@
     color: var(--twitter-blue);
     margin-right: 10px;
     font-size: 23px;
-
+    padding: 5px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
 }
 
+.writePost__wrapper__footer__icons > *:hover {
+    background-color: var(--twitter-background);
+}
 .writePost__wrapper__footer > button {
     background-color: var(--twitter-blue);
     font-size: 15px;
