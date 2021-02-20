@@ -1,0 +1,20 @@
+.trendingTile {
+    padding: 10px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.trendingTile__heading {
+    font-weight: bold;
+    font-size: 15px;
+}
+.categoryWrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #5B7083;
+}
+
+.trendingTile__tweetCount {
+    font-size: 13px;
+    color: #5B7083;
+}

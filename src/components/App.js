@@ -6,8 +6,10 @@ import { Navigation } from "./Navigation";
 function App() {
   return (
     <div className="app">
-      <Navigation />
-      <Content />
+      <div className="app__section">
+        <Navigation />
+        <Content />
+      </div>
       <SideBar />
     </div>
   );

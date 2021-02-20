@@ -1,3 +1,34 @@
 .sidebar {
+    width: 100%;
+    max-width: 350px;
+    margin: 8px 30px;
+}
 
+.sidebar__header {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #EBEEF0 ;
+    border-radius: 50px;
+}
+
+.sidebar__header > input {
+    width: 100%;
+    border: 0;
+    background-color: inherit;
+}
+.sidebar__header > input:focus {
+    outline: none;
+}
+
+.sidebar__header__searchIcon {
+    font-size: 20px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .sidebar {
+        display: none;
+    }
 }
