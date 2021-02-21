@@ -1,5 +1,5 @@
 ### About Project
-It is a clone of Twitter homepage created with ReactJS. No external dependency/library is used. Styling is done with pure CSS. It only took me less than 24 hours to complete the project.
+It is a clone of Twitter homepage created with ReactJS. The app is fully responsive and no external dependency/library is used. Styling is done with pure CSS. It only took me less than 24 hours to complete the project.
 
 ![ScreenShot](https://i.ibb.co/mGLYzkJ/image.png "ScreenShot")
 
